@@ -1,0 +1,36 @@
+.dashboard{
+    font-family: var(--font-family);
+
+    .wrapper{
+        display: flex;
+        .main{
+            // width: 75vw;
+            flex: 8;
+            padding: 40px;
+            h2{
+                font-weight: 500;
+                color: var(--pri-color);
+            }
+
+            .widgets{
+                display: flex;
+                justify-content: space-between;
+                .widget{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding: 50px;
+                    width: 240px;
+                    height: 100px;
+                    background: #FFFFFF;
+                    border: 1px solid rgba(33, 63, 125, 0.06);
+                    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+                    border-radius: 4px;
+                    p{
+                        color: #545F7D;
+                    }
+                }
+            }
+        }
+    }
+}

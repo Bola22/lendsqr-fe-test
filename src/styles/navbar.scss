@@ -1,0 +1,54 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    display: flex;
+    padding: 30px;
+    background: #FFFFFF;
+    .logo{
+        display: flex;
+        align-items: center;
+        margin-right: 168px;
+        .union{
+            height: 15px;
+            margin-right: 5px;
+        }
+        .lendsqr{
+            height: 20px;
+        }
+    }
+
+    .search{
+        // border-radius: 8px;
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+
+        input{
+            font-family: var(--font-family);
+            font-size: 12px;
+            border: 1px solid #213F7D;
+            border-radius: 8px 0 0 8px;
+            height: 40px;
+            width: 344px;
+        }
+        button{
+            height: 40px;
+            width: 56px;
+            border: 1px solid #213F7D;
+            border-radius: 0 8px 8px 0;
+            background-color: #39CDCC;
+            color: #FFFFFF;
+        }
+    }
+
+    .right{
+        display: flex;
+        align-items: center;
+        color: #213F7D;;
+
+        .profile{
+            display: flex;
+        }
+    }
+}
